@@ -75,6 +75,12 @@ color: ##212121;
 text-decoration: none
 }
 
+/*ПЕРЕРОБИТИ */
+.site-nav .link.current{
+color: #212121 var(--title-text-color); 
+}
+
+
 .site-nav .link:hover,.site-nav .link:focus {
 color: #2196F3;
 }
@@ -185,4 +191,37 @@ font-family: 'Raleway';
 }
 .footer-logo span{
     color: #2196F3;
+}
+
+
+
+/* Портфоліо сині кнопки*/
+
+.buttons-item{
+font-family: 'Roboto';
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+color: #FFFFFF;
+background: #2196F3
+}
+.buttons-group{
+    text-decoration: none
+}
+
+.project-group .list{
+    text-decoration: none
+
+}
+
+.project-item{
+  
+}
+.project-product{
+    color: #212121;
+}
+
+.project-category{
+   color: #757575;
 }
