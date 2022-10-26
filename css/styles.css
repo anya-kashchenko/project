@@ -1,0 +1,188 @@
+body {
+background-color:#F5F5F5 ;
+color: #757575;
+font-family: 'Roboto';
+}
+
+/* колір основного тексту #212121 */
+/* другорядний колір #757575 */
+/* #FFFFFF */
+/* голубий #2196F3 */
+/* колір фону #F5F5F5*/
+/*ПЕРЕРОБИТИ логотип*/
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px; 
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #2196F3;
+}
+
+.auth-nav .mail, .auth-nav .phone {
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none
+}
+
+.auth-nav .mail:hover,
+.auth-nav .phone:hover {
+    color: #2196F3;
+}
+
+.hero-title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+color:#FFFFFF;}
+
+.hero-button{
+font-family: 'Roboto' ;
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+color:#FFFFFF;
+background: #2196F3;
+}
+.list{
+    list-style: none;
+}
+
+.link{
+color:#212121 ;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.site-nav .link {
+color: ##212121;
+text-decoration: none
+}
+
+.site-nav .link:hover,.site-nav .link:focus {
+color: #2196F3;
+}
+.skills-item{
+font-family:"Roboto";
+color: #212121;
+width: 270px;
+      
+        
+}
+.skills-subtitle{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.skills-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575
+}
+
+.subtitle{
+    color: #212121;
+}
+
+.second-title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: #212121;
+}
+
+
+.second-title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: #212121
+}
+
+.teams-name{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+ line-height: 19px;
+color: #212121
+
+}
+
+.teams-job{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #757575;
+}
+
+.footer-mail{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF
+}
+.footer-address{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF
+}
+.hero {
+    color: #212121;
+}
+
+.footer-logo{
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    color: #FFFFFF
+}
+.footer-logo span{
+    color: #2196F3;
+}
