@@ -10,6 +10,35 @@ font-family: 'Roboto';
 /* голубий #2196F3 */
 /* колір фону #F5F5F5*/
 /*ПЕРЕРОБИТИ логотип*/
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/*------header----------*/
+
+.container-header {
+    width: 1230px;
+    height: 80px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #FFFFFF;
+}
+
+.page-header {
+    background-color:#FFFFFF;
+   
+}
+
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -39,13 +68,49 @@ font-family: 'Roboto';
     color: #2196F3;
 }
 
+
+
+/*--------hero--------*/
+.hero-conteiner{
+    width: 1230px;
+    height: 600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    margin: auto;
+
+}
+
+.hero{
+    
+
+border: 5px;
+background-color:#2F303A;
+
+padding-top: 200px;
+padding-right: 452px;
+padding-bottom: 280px;
+padding-left: 452px;
+
+
+
+}
 .hero-title{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-color:#FFFFFF;}
+
+color:#FFFFFF;
+
+Width: 696px;
+Height: 120px;
+Top: 280px;
+Left: 452px;
+
+}
+
 
 .hero-button{
 font-family: 'Roboto' ;
@@ -53,11 +118,28 @@ width: 216px;
 height: 50px;
 left: 692px;
 top: 430px;
+padding: 10px;32px;
+
 color:#FFFFFF;
 background: #2196F3;
+
+border-radius: 4px;
+text-align:center;
+
 }
-.list{
-    list-style: none;
+
+.button{
+    padding-top: 380px;
+        padding-right: 692px;
+        padding-bottom: 210px;
+        padding-left: 692px;
+}
+.list {
+list-style: none;
+
+padding: 0;
+margin: 0;
+ 
 }
 
 .link{
@@ -75,21 +157,45 @@ color: ##212121;
 text-decoration: none
 }
 
-/*ПЕРЕРОБИТИ */
-.site-nav .link.current{
-color: #212121 var(--title-text-color); 
-}
-
 
 .site-nav .link:hover,.site-nav .link:focus {
 color: #2196F3;
 }
+
+
+
+
+
+/*------------4 колонки-------*/
+.skills-conteiner {
+    background-color:#FAFAFA;
+    height: 300px;}
+
+
+.skills{
+    width: 1230px;
+    height: 300px;
+padding-left: 15px;
+    padding-right: 15px;
+}
+
 .skills-item{
 font-family:"Roboto";
 color: #212121;
 width: 270px;
-      
-        
+Height:72px;
+ Top:800px; 
+Left: 215px   
+}
+
+.parent{
+text-align: center;
+}
+
+.child{
+text-align: center;
+margin-bottom: 10px;
+margin-left: 215px;
 }
 .skills-subtitle{
 font-family: 'Roboto';
@@ -99,6 +205,12 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 color: #212121;
+
+width: 270px;
+    height: 16px;
+    margin-left: 215px;
+    margin-top: 774px;
+    margin-top: 94px;
 }
 .skills-text{
     font-family: 'Roboto';
@@ -113,23 +225,50 @@ color: #212121;
     color: #212121;
 }
 
-.second-title{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-color: #212121;
+
+
+
+/*------------Чим ми займаємося-------*/
+
+.work-conteiner{
+   background-color:#FAFAFA;
+
+
+}
+
+.work{
+    Width: 1230px;
+    Height: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
-.second-title{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-color: #212121
+.second-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+
+
+
+
+/*------------Наша команда-------*/
+
+
+.teams-conteiner{
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.teams{
+Width: 1200px;
+Height: 648px;
+
+background-color: #f5f4fa;;
 }
 
 .teams-name{
@@ -151,37 +290,56 @@ line-height: 19px;
 color: #757575;
 }
 
-.footer-mail{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: rgba(255, 255, 255, 0.6);
+
+
+
+/*--------footer-------*/
+.footer {
+    background-color: #2F303A;
+   
 }
 
-.footer-phone{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #FFFFFF
-}
-.footer-address{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #FFFFFF
-}
-.hero {
-    color: #212121;
+.footer-conteiner {
+    background-color:#2F303A;
+
+    width: 1230px;
+    height: 252px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
 }
 
-.footer-logo{
-font-family: 'Raleway';
+.footer-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF
+}
+
+.footer-address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF
+}
+
+
+.footer-logo {
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -189,39 +347,7 @@ font-family: 'Raleway';
     text-decoration: none;
     color: #FFFFFF
 }
-.footer-logo span{
+
+.footer-logo span {
     color: #2196F3;
-}
-
-
-
-/* Портфоліо сині кнопки*/
-
-.buttons-item{
-font-family: 'Roboto';
-width: 216px;
-height: 50px;
-left: 692px;
-top: 430px;
-color: #FFFFFF;
-background: #2196F3
-}
-.buttons-group{
-    text-decoration: none
-}
-
-.project-group .list{
-    text-decoration: none
-
-}
-
-.project-item{
-  
-}
-.project-product{
-    color: #212121;
-}
-
-.project-category{
-   color: #757575;
 }

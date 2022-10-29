@@ -1,114 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <style></style>
-  </head>
+
+    <head class="page-header">
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="./css/styles.css" />
+      <style></style>
+    </head>
+
   <body>
-    <header>
-      <a class="logo" href="./index.html"><span>Web</span>Studio</a>
-      <nav>
-        <ul class="site-nav list">
-          <li><a href="index.html" class="link current">Студія</a></li>
-          <li><a href="./Портфоліо.html" class="link">Портфоліо</a></li>
-          <li><a href="#" class="link">Контакти</a></li>
+    <!------------header------------>
+      <header class="page-header">
+        <div class="container-header" >
+        <a class="logo tabs" href="./index.html"><span>Web</span>Studio</a>
+        <nav>
+          <ul class="site-nav list">
+            <li>
+              <a href=" index.html" class="link current">Студія</a>
+            </li>
+            <li>
+              <a href="./Портфоліо.html" class="link">Портфоліо</a>
+            </li>
+            <li><a href="#" class="link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="auth-nav list">
+          <li>
+            <a class="mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="auth-nav list">
-        <li>
-          <a class="mail" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a class="phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
-    </header>
+        </div>
+      </header>
+  <!---------------main--------------->
     <main>
       <section class="hero">
+        <div class="hero-conteiner">
         <h1 class="hero-title">
           ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
           ВАШОГО БІЗНЕСУ
         </h1>
         <button class="hero-button" type="button">Замовити послугу</button>
+    </div>
       </section>
-      <section class="skills">
-        <ul class="skills-list list">
-          <li class="skills-item">
-            <b class="skills-subtitle"> УВАГА ДО ДЕТАЛЕЙ</b>
-            <p class="skills-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позицій
-            </p>
-          </li>
-          <li class="skills-item">
-            <b class="skills-subtitle"> ПУНКТУАЛЬНІСТЬ</b>
-            <p class="skills-text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе
-            </p>
-          </li>
-          <li class="skills-item">
-            <b class="skills-subtitle">ПЛАНУВАННЯ</b>
-            <p class="skills-text">
-              Консультація з широким активом значною мірою зумовлює
-            </p>
-          </li>
-          <li class="skills-item">
-            <b class="skills-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</b>
-            <p class="skills-text">
-              Значимість цих проблем настільки очевидна,що реалізація планових
-              завдань
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="work">
-        <h2 class="second-title">Чим ми займаємося</h2>
-        <ul class="work-list list">
-          <li class="work-item">
-            <img src="images/11.jpg" alt="Кодування" width="200" />
-          </li>
-          <li class="work-item">
-            <img src="images/22.jpg" alt="Програмування" width="200" />
-          </li>
-          <li class="work-item">
-            <img src="images/33.jpg" alt="Програмування" width="200" />
-          </li>
-        </ul>
-      </section>
-      <section class="teams">
-        <h2 class="second-title">Наша команда</h2>
-        <ul class="teams-list list" class="items">
-          <li class="teams-item">
-            <img src="images/44.jpg" alt="чоловік" width="200" />
-            <p class="teams-name">Ігор Дем'яненко</p>
-            <p class="teams-job">product Designer</p>
-          </li>
-          <li class="teams-item">
-            <img src="images/55.jpg" alt="жінка" width="200" />
-            <p class="teams-name">Ольга Рєпіна</p>
-            <p class="teams-job">Frontend Deweloper</p>
-          </li>
-          <li class="teams-item">
-            <img src="images/66.jpg" alt="чоловік" width="200" />
-            <p class="teams-name">Микола Тарасов</p>
-            <p class="teams-job">Marketing</p>
-          </li>
-          <li class="teams-item">
-            <img src="images/77.jpg" alt="жінка" width="200" />
-            <p class="teams-name">Михайло Єрмаков UI</p>
-            <p class="teams-job">Designer</p>
-          </li>
-        </ul>
-      </section>
+
+        <section class="skills">
+          <div class="skills-conteiner">
+            <nav>
+            <ul class="skills-list list">
+            <li class="skills-item">
+              <b class="skills-subtitle parent"> УВАГА ДО ДЕТАЛЕЙ</b>
+              <p class="skills-text child">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позицій
+              </p>
+            </li>
+            <li class="skills-item">
+              <b class="skills-subtitle parent"> ПУНКТУАЛЬНІСТЬ</b>
+              <p class="skills-text child">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе
+              </p>
+            </li>
+            <li class="skills-item">
+              <b class="skills-subtitle parent">ПЛАНУВАННЯ</b>
+              <p class="skills-text child">
+                Консультація з широким активом значною мірою зумовлює
+              </p>
+            </li>
+            <li class="skills-item">
+              <b class="skills-subtitle parent">СУЧАСНІ ТЕХНОЛОГІЇ</b>
+              <p class="skills-text child">
+                Значимість цих проблем настільки очевидна,що реалізація планових
+                завдань
+              </p>
+            </li>
+          </ul>
+          </nav>
+          </div>
+        </section>
+
+     
+        <section class="work">
+           <div class="work-conteiner">
+          <h2 class="second-title">Чим ми займаємося</h2>
+          <ul class="work-list list">
+            <li class="work-item">
+              <img src="images/11.jpg" alt="Кодування" width="200" />
+            </li>
+            <li class="work-item">
+              <img src="images/22.jpg" alt="Програмування" width="200" />
+            </li>
+            <li class="work-item">
+              <img src="images/33.jpg" alt="Програмування" width="200" />
+            </li>
+          </ul>
+           </div>
+        </section>
+      
+
+        
+        <section class="teams">
+          <div class="teams-conteiner"></div>
+          <h2 class="second-title">Наша команда</h2>
+          <ul class="teams-list list" class="items">
+            <li class="teams-item">
+              <img src="images/44.jpg" alt="чоловік" width="200" />
+              <p class="teams-name">Ігор Дем'яненко</p>
+              <p class="teams-job">product Designer</p>
+            </li>
+            <li class="teams-item">
+              <img src="images/55.jpg" alt="жінка" width="200" />
+              <p class="teams-name">Ольга Рєпіна</p>
+              <p class="teams-job">Frontend Deweloper</p>
+            </li>
+            <li class="teams-item">
+              <img src="images/66.jpg" alt="чоловік" width="200" />
+              <p class="teams-name">Микола Тарасов</p>
+              <p class="teams-job">Marketing</p>
+            </li>
+            <li class="teams-item">
+              <img src="images/77.jpg" alt="жінка" width="200" />
+              <p class="teams-name">Михайло Єрмаков UI</p>
+              <p class="teams-job">Designer</p>
+            </li>
+          </ul>
+        </div>
+        </section>
+      
     </main>
+    </div>
+<!-----------footer--------------->
+ 
     <footer class="footer">
+      <div class="footer-conteiner"></div>
+      <nav>
       <a class="footer-logo" href="./index.html"><span>Web</span>Studio</a>
-      <address>
+      <address class="address-conteiner">
         <ul class="site-nav list">
           <li>
             <a class="footer-address" href="#">
@@ -125,6 +159,9 @@
           </li>
         </ul>
       </address>
+      </nav>
+    </div>
     </footer>
+
   </body>
 </html>
