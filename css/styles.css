@@ -235,7 +235,7 @@ color: #2196F3;
 .skills-container {
 
    
-width: 1230px;
+width: 1200px;
 
 
 }
@@ -543,7 +543,7 @@ background-color: #2196F3;
 .project-container{
     background-color: #FFFFFF;
 
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -558,13 +558,16 @@ border: 1px solid #EEEEEE;
 margin-bottom: 30px;
 
 
+
 }
 
 
 .project-group {
     display: flex;
+
     flex-wrap: wrap;
-   
+width: 1200px;
+
 }
 .project-product{
   color:#212121;
