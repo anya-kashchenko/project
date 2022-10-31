@@ -76,7 +76,7 @@ display: flex;
 }
 
 .auth-nav .mail, .auth-nav .phone {
-    color: #212121;
+    color: #757575;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -283,7 +283,8 @@ text-align: center;
 }
 
 .child{
-
+width: 270px;
+height: 48px;
 
 
 }
@@ -305,6 +306,8 @@ color: #212121;
     font-size: 14px;
     line-height: 24px;
     color: #757575
+
+
 }
 
 .subtitle{
@@ -327,8 +330,7 @@ color: #212121;
   padding-top: 94px;
   padding-bottom: 94px;
 
- padding-left: 15px;
- padding-right: 15px;
+
  margin-left: auto;
 margin-right: auto;
 }
@@ -533,9 +535,33 @@ cursor: pointer;
 border-radius: 4px;
 
 }
+.button-m{
+    width: 130px;
+    height: 38px;
+}
+.button-y{
+    width: 73px;
+    height: 38px;
+}
 
+.button-w{
+    width: 125px;
+    height: 38px;
+}
+.button-d{
+    width: 112px;
+    height: 38px;
+
+}
+.button-dz{
+    width: 103px;
+    height: 38px;
+}
 .buttons-item:hover{
 background-color: #2196F3;
+color: #FFFFFF;
+font-family:'Roboto';
+
 }
 .project{
 
