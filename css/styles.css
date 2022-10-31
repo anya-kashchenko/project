@@ -292,7 +292,6 @@ height: 48px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
-font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 color: #212121;
@@ -303,7 +302,7 @@ color: #212121;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+  
     line-height: 24px;
     color: #757575
 
@@ -601,11 +600,12 @@ font-family: 'Roboto';
 
 margin-top: 20px;
 margin-bottom:4px ;
+margin-left: 24px;
 }
 
 .project-category{
 color: #757575;
-
+margin-left: 24px;
 }
 
 
