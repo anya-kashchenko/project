@@ -14,12 +14,15 @@ font-family: 'Roboto';
 
 html {
     box-sizing: border-box;
+   
 }
 
 *,
 *::before,
 *::after {
     box-sizing: inherit;
+   margin-left: 0;
+   margin-right: 0;
 }
 
 
@@ -56,7 +59,7 @@ display: flex;
 
 .page-header {
     background-color:#FFFFFF;
-  
+border-bottom:  1px solid #ECECEC;
 }
 
 
@@ -95,7 +98,10 @@ display: flex;
     display: flex;
     margin-left: 93px;
 
+
 }
+
+
 .auth-nav{
     display: flex;
 
@@ -131,12 +137,13 @@ flex-direction: column;
     
    
 }
-
+.box{
+    margin: 0;
+}
 .container-main{
-    padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
+   
+margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -171,7 +178,6 @@ color:#FFFFFF;
 
 
 }
-
 
 .hero-button{
 font-family: 'Roboto' ;
@@ -225,11 +231,16 @@ text-decoration: none
 
 .site-nav .link:hover,.site-nav .link:focus {
 color: #2196F3;
+
 }
 
-
-
-
+.site-nav .link.active{
+    color: #2196F3;
+}
+.buttons-group .button-y.active{
+background-color: #2196F3;
+color: #FFFFFF;
+}
 
 /*------------4 колонки-------*/
 .skills-container {
@@ -344,8 +355,9 @@ margin-right: auto;
     color: #212121;
     margin-top: 0;
     margin-bottom: 50px;
-    text-align: center;
     
+    display: flex;
+ justify-content: center
 }
 .work-list{
     display: flex;
@@ -364,12 +376,10 @@ margin-right: auto;
 .teams-container{
 padding-left: 15px;
 padding-right: 15px;
-display: flex;
-    flex-wrap: wrap;
-}
 
+}
 .teams{
-Width: 1200px;
+
 padding-top: 94px;
 padding-bottom: 94px;
 background-color: #f5f4fa;
@@ -379,14 +389,13 @@ padding-right: 15px;
  margin-left: auto;
  margin-right: auto;
 
-
 }
 
 .teams-name{
 font-family: 'Roboto';
 font-style: normal;
 color: #212121;
-
+text-align: center;
 
 }
 
@@ -397,6 +406,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 color: #757575;
+text-align: center;
 }
 .teams-list li:not(:last-child){
 
@@ -410,8 +420,8 @@ background-color: #FFFFFF;
 
 .teams-list{
 display: flex;
-    flex-wrap: wrap;
-   
+ flex-wrap: wrap;
+justify-content: center;
 }
 
 
@@ -441,8 +451,27 @@ display: flex;
 }
 .footer-list li:not(:last-child){
 margin-bottom: 9px;
+
 }
 
+.footer-logo:hover{
+    text-decoration:underline;
+    text-decoration-color: #2196F3;
+
+}
+.footer-address:hover{
+text-decoration: underline;
+text-decoration-color: #2196F3;
+}
+   
+.footer-mail:hover{
+text-decoration: underline;
+text-decoration-color: #2196F3;
+}
+.footer-phone:hover{
+text-decoration: underline;
+text-decoration-color: #2196F3;
+}
 .footer-mail {
     font-family: 'Roboto';
     font-style: normal;
@@ -450,6 +479,8 @@ margin-bottom: 9px;
     font-size: 14px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+  
 }
 
 .footer-phone {
@@ -458,7 +489,8 @@ margin-bottom: 9px;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #FFFFFF
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .footer-address {
@@ -468,6 +500,7 @@ margin-bottom: 9px;
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
+    text-decoration: none;
     
 }
 
@@ -539,8 +572,10 @@ border-radius: 4px;
     height: 38px;
 }
 .button-y{
+    
     width: 73px;
     height: 38px;
+  
 }
 
 .button-w{
