@@ -82,12 +82,18 @@ border-bottom:  1px solid #ECECEC;
     color: #757575;
     font-family: 'Roboto';
     font-style: normal;
+    text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
+    /*font-size: 14px;
     line-height: 16px;
     text-decoration: none;
-
+*/
    
+}
+
+.auth-nav::before{
+    background-image:url(../images/icons.svg/envelope.svg);
+    background-size: contain;
 }
 
 .auth-nav .mail:hover,
@@ -100,7 +106,30 @@ border-bottom:  1px solid #ECECEC;
 
 
 }
+.mail{
+    width: 135px;
+    height: 16px;
 
+    background-image: url(../images/icons.svg/envelope.svg);
+    background-size: 16px, 12px;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content:flex-end;
+
+    
+}
+
+
+
+.phone{
+    background-image: url(../images/icons.svg/Vector\ \(3\).svg);
+    background-repeat: no-repeat;
+   
+
+    background-size: 10px 16px;
+    
+}
 
 .auth-nav{
     display: flex;
@@ -355,6 +384,7 @@ margin-right: auto;
     color: #212121;
     margin-top: 0;
     margin-bottom: 50px;
+   
     
     display: flex;
  justify-content: center
@@ -371,6 +401,14 @@ margin-right: auto;
     background-color: #F5F5F5;
 }
 /*------------Наша команда-------*/
+
+.teams-item{
+    width: 270px;
+    height: 428px;
+    
+}
+
+
 
 
 .teams-container{
@@ -422,7 +460,10 @@ background-color: #FFFFFF;
 display: flex;
  flex-wrap: wrap;
 justify-content: center;
+
+
 }
+
 
 
 /*--------footer-------*/
@@ -659,3 +700,93 @@ margin-left: 24px;
 .buttons-item link:hover{
     background-color: #2196F3;
 }
+
+
+
+
+.overlay{
+    max-width: 1600px;
+    height: 600px;
+    outline: 1px solid #2196F3;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url("../images/111.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.item-mail:before{
+    content: "";
+    margin-right: 10px;
+    width: 10px;
+    height: 4px;
+   
+    background-image:url("../images/icons.svg/letter-hover.svg");
+    
+
+}
+.skills-item::before{
+    display:block;
+    content: "";
+  
+    height: 120px;
+    background-color:#F5F4FA;
+    margin-bottom: 30px;
+    
+    
+ 
+}
+
+
+
+.skills-item:nth-child(1):before{
+
+    background-image: url(../images/icons.svg/Vector.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:65px, 32px;
+}
+
+.skills-item:nth-child(2):before {
+    background-image:url(../images/icons.svg/clock\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 66.96px, 70px;
+}
+.skills-item:nth-child(3):before {
+    background-image: url(../images/icons.svg/diagram\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px, 53.69px;
+}
+
+
+.skills-item:nth-child(4):before {
+    background-image: url(../images/icons.svg/astronaut\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px, 70px;
+}
+
+.section-clients{
+    padding-top: 94px;
+    padding-bottom: ;
+}
+
+/*
+    display: block;
+    content: "";
+
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+
+
+}*/
