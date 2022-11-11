@@ -66,6 +66,55 @@
             </button>
             <div class="backdrop is-hidden" data-modal>
               <div class="modal">
+                <h2 class="h-class">Залиште свої дані, ми вам передзвонимо</h2>
+                <form class="form js-speaker-form">
+                  <div class="form-field">
+                    <label for="name" class="form-label">Ім'я</label>
+                    <input
+                      class="form-input"
+                      type="text"
+                      name="name"
+                      id="name"
+                    />
+                  </div>
+                  <div class="form-field">
+                    <label for="tel" class="form-label">Телефон</label>
+                    <input class="form-input" type="tel" name="tel" id="tel" />
+                  </div>
+                  <div class="form-field">
+                    <label for="mail" class="form-label">Пошта</label>
+                    <input
+                      class="form-input"
+                      type="email"
+                      name="mail"
+                      id="mail"
+                    />
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Коментар</label>
+                    <textarea
+                      class="comment-text"
+                      name="comment"
+                      id="comment"
+                      rows="10"
+                      placeholder="Введіть текст"
+                    ></textarea>
+                  </div>
+                  <div class="terms">
+                    <input
+                      class="terms-input"
+                      type="checkbox"
+                      name=""
+                      value=""
+                    />
+                    <label for=""
+                      >Погоджуюся з розсилкою та приймаю
+                      <span class="span-terms">Умови договору</span>
+                    </label>
+                  </div>
+                  <button class="send" type="submit">Відправити</button>
+                </form>
+
                 <button class="close" data-modal-close>
                   <svg width="10px" height="10px">
                     <use href="./images/icons.svg/sprite.svg#icon-close"></use>

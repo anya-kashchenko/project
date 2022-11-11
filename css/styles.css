@@ -1127,3 +1127,125 @@ border-radius: 50%;
     margin-right: 10px;
 }
 
+.form{
+    
+    outline:1px solid tomato;
+
+    margin-left: 41px;
+    margin-right: 39px;
+
+  padding: 0px;
+}
+.form-field{
+   
+
+
+}
+
+.form-input{
+
+margin: 0;
+background: #FFFFFF;
+
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+
+width: 448px;
+height: 40px;
+
+}
+
+.form-label{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #757575;
+ 
+ 
+}
+.comment label{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    
+        color: #757575;
+}
+.h-class{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+.send{
+    font-family: 'Roboto';
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 713px;
+
+    background: #188CE8;
+   
+    border-radius: 4px;
+    padding: 10px 32px;
+    cursor: pointer;
+    color: #FFFFFF;
+   
+  
+    text-align: center;
+    border: 4px solid #188CE8;
+
+   
+}
+.terms{
+    
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    
+    
+        color: #757575;
+
+        margin-bottom: 30px;
+        margin-top: 20px;
+
+        text-align: center;
+}
+.span-terms{
+    color:#2196F3;
+    text-decoration: underline;
+   
+
+}
+.comment-text{
+    width: 448px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.comment-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #757575;
+
+
+}
