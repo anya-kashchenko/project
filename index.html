@@ -76,10 +76,20 @@
                       name="name"
                       id="name"
                     />
+                    <svg class="phone-111" width="10px" height="16px">
+                      <use
+                        href="./images/icons.svg/sprite.svg#icon-icon-Vector-2"
+                      ></use>
+                    </svg>
                   </div>
                   <div class="form-field">
                     <label for="tel" class="form-label">Телефон</label>
                     <input class="form-input" type="tel" name="tel" id="tel" />
+                    <svg class="phone-111" width="10px" height="16px">
+                      <use
+                        href="./images/icons.svg/sprite.svg#icon-phone"
+                      ></use>
+                    </svg>
                   </div>
                   <div class="form-field">
                     <label for="mail" class="form-label">Пошта</label>
@@ -89,9 +99,14 @@
                       name="mail"
                       id="mail"
                     />
+                    <svg class="phone-111" width="10px" height="16px">
+                      <use
+                        href="./images/icons.svg/sprite.svg#icon-phone"
+                      ></use>
+                    </svg>
                   </div>
                   <div class="comment">
-                    <label for="comment">Коментар</label>
+                    <label for="comment" class="form-label">Коментар</label>
                     <textarea
                       class="comment-text"
                       name="comment"
@@ -100,6 +115,7 @@
                       placeholder="Введіть текст"
                     ></textarea>
                   </div>
+
                   <div class="terms">
                     <input
                       class="terms-input"
@@ -107,12 +123,14 @@
                       name=""
                       value=""
                     />
-                    <label for=""
+                    <label class="checkbox"
                       >Погоджуюся з розсилкою та приймаю
                       <span class="span-terms">Умови договору</span>
                     </label>
                   </div>
-                  <button class="send" type="submit">Відправити</button>
+                  <div class="button-form">
+                    <button class="send" type="submit">Відправити</button>
+                  </div>
                 </form>
 
                 <button class="close" data-modal-close>
@@ -491,12 +509,14 @@
                   placeholder="E-mail"
                 />
               </div>
-              <button class="sign-up-button" type="button">
-                Підписатися
-                <svg class="teams-svg" width="24px" height="24px">
-                  <use href="./images/icons.svg/sprite.svg#icon-phone"></use>
-                </svg>
-              </button>
+              <div>
+                <button class="sign-up-button" type="button">
+                  Підписатися
+                  <svg class="teams-svg" width="24px" height="24px">
+                    <use href="./images/icons.svg/sprite.svg#icon-phone"></use>
+                  </svg>
+                </button>
+              </div>
             </form>
           </div>
         </div>

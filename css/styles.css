@@ -1129,7 +1129,7 @@ border-radius: 50%;
 
 .form{
     
-    outline:1px solid tomato;
+   
 
     margin-left: 41px;
     margin-right: 39px;
@@ -1137,14 +1137,14 @@ border-radius: 50%;
   padding: 0px;
 }
 .form-field{
-   
+  
 
-
+position: relative;
 }
 
 .form-input{
 
-margin: 0;
+
 background: #FFFFFF;
 
 border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1153,28 +1153,29 @@ border-radius: 4px;
 width: 448px;
 height: 40px;
 
+margin-top: 4px;
+margin-bottom: 10px;
+
 }
 
 .form-label{
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
 
-        color: #757575;
- 
+     color: #757575;
+    margin-bottom: 4px;
+
  
 }
-.comment label{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
-    
-        color: #757575;
+.phone-111{
+    position: absolute;
+    top:35px;
+    left: 14px;
 }
+
 .h-class{
     font-family: 'Roboto';
         font-style: normal;
@@ -1200,7 +1201,7 @@ height: 40px;
     background: #188CE8;
    
     border-radius: 4px;
-    padding: 10px 32px;
+    padding: 10px 52px;
     cursor: pointer;
     color: #FFFFFF;
    
@@ -1230,15 +1231,50 @@ height: 40px;
 .span-terms{
     color:#2196F3;
     text-decoration: underline;
+
+    cursor: pointer;
    
 
 }
-.comment-text{
-    width: 448px;
-    height: 120px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
+.checkbox::before{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+  
+ 
+    border-radius: 3px;
+
 }
+.checkbox{
+    border-radius: 3px solid black
+}
+.terms-input{
+   /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+  position: absolute;*/
+
+
+
+
+}
+.terms-input + .checkbox::before{
+    
+    background-color: #188CE8;
+    background-image: url(../images/icons.svg/Vector\ \(5\).svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
+}
+.terms{
+    display: inline-block;
+    outline: 1px solid tomato;
+}
+
+
+
 .comment-text{
     font-family: 'Roboto';
 font-style: normal;
@@ -1247,8 +1283,22 @@ font-size: 12px;
 line-height: 14px;
 color: #757575;
 
+width: 448px;
+height: 120px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
 
+ margin-top: 4px;
+ padding-top: 12px;
+ padding-right: 16px;
+ padding-bottom: 12px;
+ padding-left: 16px;
+
+
+resize: none;
 }
+
+
 .footer-label{
     font-family: 'Roboto';
         font-style: normal;
@@ -1259,6 +1309,8 @@ color: #757575;
         text-transform: uppercase;
     
         color: #FFFFFF;
+
+        margin-bottom: 20px;
 }
 
 .footer-input{
@@ -1297,9 +1349,18 @@ color: #757575;
 }
 .footer-form{
     margin-left: 93px;
+   
 }
 .footer-field{
         display: flex;
         justify-content: center;
         flex-direction: column;
 }
+.button-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
