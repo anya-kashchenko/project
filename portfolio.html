@@ -21,8 +21,8 @@
         <div class="container-header main-div">
           <div class="container-menu">
             <a class="logo" href="./index.html"><span>Web</span>Studio</a>
-            <nav>
-              <ul class="site-nav list">
+            <nav class="site-nav">
+              <ul class="site-nav__list">
                 <li class="site-nav__item">
                   <a href=" index.html" class="site-nav__link">Студія</a>
                 </li>
@@ -31,69 +31,89 @@
                     >Портфоліо</a
                   >
                 </li>
+
                 <li class="site-nav__item">
                   <a href="#" class="site-nav__link">Контакти</a>
                 </li>
               </ul>
             </nav>
           </div>
-
-          <ul class="auth-nav list">
-            <li class="item item-mail">
-              <a class="mail" href="mailto:info@devstudio.com">
-                <svg class="mail-svg" width="16px" height="12px">
-                  <use href="./images/icons.svg/sprite.svg#icon-envelope"></use>
-                </svg>
-                <span>info@devstudio.com</span></a
-              >
-            </li>
-            <li class="item">
-              <a class="phone" href="tel:+380961111111">
-                <svg class="phone-svg" width="10px" height="16px">
-                  <use href="./images/icons.svg/sprite.svg#icon-phone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
-            </li>
-          </ul>
+          <div class="auth-nav">
+            <ul class="auth-nav__list">
+              <li class="auth-nav__item">
+                <a class="auth-nav__link" href="mailto:info@devstudio.com">
+                  <svg
+                    class="auth-nav__icon auth-nav__icon--mail"
+                    width="16px"
+                    height="12px"
+                  >
+                    <use
+                      href="./images/icons.svg/sprite.svg#icon-envelope"
+                    ></use>
+                  </svg>
+                  <span>info@devstudio.com</span></a
+                >
+              </li>
+              <li class="auth-nav__item">
+                <a class="auth-nav__link" href="tel:+380961111111">
+                  <svg
+                    class="auth-nav__icon auth-nav__icon--phone"
+                    width="10px"
+                    height="16px"
+                  >
+                    <use href="./images/icons.svg/sprite.svg#icon-phone"></use>
+                  </svg>
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </header>
       <main>
-        <div class="project-container">
-          <section class="buttons buttons-container">
-            <ul class="buttons-group list">
-              <li>
-                <button class="buttons-item button-y active" type="button">
-                  <b>Усі</b>
+        <div class="buttons-container">
+          <section class="buttons-section">
+            <ul class="buttons-section__list">
+              <li class="buttons-section__item">
+                <button
+                  class="buttons-section__button buttons-section__button--primary"
+                  type="button"
+                >
+                  Усі
                 </button>
               </li>
-              <li>
-                <button class="buttons-item button-w" type="button">
-                  <b>Веб-сайт</b>
+              <li class="buttons-section__item">
+                <button class="buttons-section__button" type="button">
+                  Веб-сайт
                 </button>
               </li>
-              <li>
-                <button class="buttons-item button-d" type="button">
-                  <b>Додатки</b>
+              <li class="buttons-section__item">
+                <button class="buttons-section__button" type="button">
+                  Додатки
                 </button>
               </li>
-              <li>
-                <button class="buttons-item button-dz" type="button">
-                  <b>Дизайн</b>
+              <li class="buttons-section__item">
+                <button class="buttons-section__button" type="button">
+                  Дизайн
                 </button>
               </li>
-              <li>
-                <button class="buttons-item button-m" type="button">
-                  <b>Маркетинг</b>
+              <li class="buttons-section__item">
+                <button class="buttons-section__button" type="button">
+                  Маркетинг
                 </button>
               </li>
             </ul>
           </section>
-          <section>
+          <section class="card-section">
             <ul class="card-set list">
               <li class="card-set__item">
                 <div class="card-overlay">
-                  <img src="images/1.jpg" alt="Веб-сайт" width="100%" />
+                  <img
+                    src="images/1.jpg"
+                    alt="Веб-сайт"
+                    width="100%"
+                    class="card-overlay__image"
+                  />
                   <div class="card-overlay__container">
                     <p class="card-overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -108,7 +128,12 @@
               </li>
               <li class="card-set__item">
                 <div class="card-overlay">
-                  <img src="images/2.jpg" alt="Постер" width="100%" />
+                  <img
+                    src="images/2.jpg"
+                    alt="Постер"
+                    width="100%"
+                    class="card-overlay__image"
+                  />
                   <div class="card-overlay__container">
                     <p class="card-overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -123,7 +148,12 @@
               </li>
               <li class="card-set__item">
                 <div class="card-overlay">
-                  <img src="images/3.jpg" alt="Постер" width="100%" />
+                  <img
+                    src="images/3.jpg"
+                    alt="Постер"
+                    width="100%"
+                    class="card-overlay__image"
+                  />
                   <div class="card-overlay__container">
                     <p class="card-overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -134,11 +164,16 @@
                   </div>
                 </div>
                 <h3 class="card-set__name">Ресторан Seafood</h3>
-                <p class="project-category">Додаток</p>
+                <p class="card-set__group">Додаток</p>
               </li>
               <li class="card-set__item">
                 <div class="card-overlay">
-                  <img src="images/4.jpg" alt="Наушники" width="100%" />
+                  <img
+                    src="images/4.jpg"
+                    alt="Наушники"
+                    width="100%"
+                    class="card-overlay__image"
+                  />
                   <div class="card-overlay__container">
                     <p class="card-overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -153,7 +188,12 @@
               </li>
               <li class="card-set__item">
                 <div class="card-overlay">
-                  <img src="images/5.jpg" alt="Бокси" width="100%" />
+                  <img
+                    src="images/5.jpg"
+                    alt="Бокси"
+                    width="100%"
+                    class="card-overlay__image"
+                  />
                   <div class="card-overlay__container">
                     <p class="card-overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -168,7 +208,12 @@
               </li>
               <li class="card-set__item">
                 <div class="card-overlay">
-                  <img src="images/6.jpg" alt="Веб-сайт" width="100%" />
+                  <img
+                    src="images/6.jpg"
+                    alt="Веб-сайт"
+                    width="100%"
+                    class="card-overlay__image"
+                  />
                   <div class="card-overlay__container">
                     <p class="card-overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -183,7 +228,12 @@
               </li>
               <li class="card-set__item">
                 <div class="card-overlay">
-                  <img src="images/7.jpg" alt="Журнал" width="100%" />
+                  <img
+                    src="images/7.jpg"
+                    alt="Журнал"
+                    width="100%"
+                    class="card-overlay__image"
+                  />
                   <div class="card-overlay__container">
                     <p class="card-overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -198,7 +248,12 @@
               </li>
               <li class="card-set__item">
                 <div class="card-overlay">
-                  <img src="images/8.jpg" alt="Бірка" width="100%" />
+                  <img
+                    src="images/8.jpg"
+                    alt="Бірка"
+                    width="100%"
+                    class="card-overlay__image"
+                  />
                   <div class="card-overlay__container">
                     <p class="card-overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -213,7 +268,12 @@
               </li>
               <li class="card-set__item">
                 <div class="card-overlay">
-                  <img src="images/9.jpg" alt="Ноутбук" width="100%" />
+                  <img
+                    src="images/9.jpg"
+                    alt="Ноутбук"
+                    width="100%"
+                    class="card-overlay__image"
+                  />
                   <div class="card-overlay__container">
                     <p class="card-overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -231,77 +291,102 @@
         </div>
       </main>
 
-      <footer class="footer">
+      <footer class="page-footer">
         <div class="footer-container">
-          <nav class="footer-nav">
+          <nav class="container-address">
             <a class="footer-logo" href="./index.html"
               ><span>Web</span>Studio</a
             >
             <address class="address-container">
               <ul class="footer-list list">
                 <li>
-                  <a class="footer-address" href="#">
+                  <a class="footer-address__link" href="#">
                     м. Київ, проспект Лесі Українки 26
                   </a>
                 </li>
                 <li>
-                  <a class="footer-mail" href="mailto:info@devstudio.com"
+                  <a
+                    class="footer-address__link"
+                    href="mailto:info@devstudio.com"
                     >info@devstudio.com</a
                   >
                 </li>
                 <li>
-                  <a class="footer-phone" href="tel:+380961111111"
+                  <a class="footer-address__link" href="tel:+380961111111"
                     >+380961111111</a
                   >
                 </li>
               </ul>
             </address>
           </nav>
-          <div class="footer-icon">
-            <h2 class="h-icon">приєднуйтесь</h2>
-            <div class="div-icon">
-              <a href="https://www.instagram.com/" class="teams-box">
-                <svg class="teams-svg" width="20px" height="20px">
-                  <use
-                    href="./images/icons.svg/sprite.svg#icon-instagram"
-                  ></use>
-                </svg>
-              </a>
-              <a href="https://twitter.com/?lang=ru" class="teams-box">
-                <svg class="teams-svg" width="20px" height="17px">
-                  <use href="./images/icons.svg/sprite.svg#icon-twitter"></use>
-                </svg>
-              </a>
-              <a
-                href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506847&extra_1=s%7Cc%7C303881997266%7Ce%7Cfacebook%7C&placement=&creative=303881997266&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9061017%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjwk5ibBhDqARIsACzmgLS20S6d199CFgXnEPTuI3Y1fT3HdiY8mUJOlCahxcN-MQEV9aZu_6UaAieMEALw_wcB"
-                class="teams-box"
-              >
-                <svg class="teams-svg" width="10px" height="20px">
-                  <use href="./images/icons.svg/sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
-              <a href="https://ua.linkedin.com/" class="teams-box">
-                <svg class="teams-svg" width="20px" height="20px">
-                  <use href="./images/icons.svg/sprite.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </div>
+          <div class="footer-networks">
+            <h2 class="footer-networks__title">приєднуйтесь</h2>
+            <ul class="footer-networks__list">
+              <li class="footer-networks__item">
+                <a
+                  href="https://www.instagram.com/"
+                  class="footer-networks__link"
+                >
+                  <svg class="social-networks__icon" width="20px" height="20px">
+                    <use
+                      href="./images/icons.svg/sprite.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-networks__item">
+                <a
+                  href="https://twitter.com/?lang=ru"
+                  class="footer-networks__link"
+                >
+                  <svg class="social-networks__icon" width="20px" height="17px">
+                    <use
+                      href="./images/icons.svg/sprite.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-networks__item">
+                <a
+                  href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506847&extra_1=s%7Cc%7C303881997266%7Ce%7Cfacebook%7C&placement=&creative=303881997266&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9061017%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjwk5ibBhDqARIsACzmgLS20S6d199CFgXnEPTuI3Y1fT3HdiY8mUJOlCahxcN-MQEV9aZu_6UaAieMEALw_wcB"
+                  class="footer-networks__link"
+                >
+                  <svg class="social-networks__icon" width="10px" height="20px">
+                    <use
+                      href="./images/icons.svg/sprite.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-network__item">
+                <a
+                  href="https://ua.linkedin.com/"
+                  class="footer-networks__link"
+                >
+                  <svg class="social-networks__icon" width="20px" height="20px">
+                    <use
+                      href="./images/icons.svg/sprite.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </div>
 
           <form class="footer-form">
-            <label for="mail" class="footer-label">
-              <span class="footer-form-label">Підпишіться на розсилку</span>
+            <label for="mail" class="footer-form__label">
+              <span class="footer-form__field">Підпишіться на розсилку</span>
               <input
-                class="footer-input"
+                class="footer-form__input"
                 type="email"
                 name="mail"
                 id="mail"
                 placeholder="E-mail"
               />
             </label>
-            <button class="sign-up-button" type="submit">
+            <button class="footer-form__button" type="submit">
               <span>Підписатися</span>
-              <svg class="teams-svg" width="24px" height="24px">
+              <svg class="footer-form__icon" width="24px" height="24px">
                 <use href="./images/icons.svg/sprite.svg#icon-phone"></use>
               </svg>
             </button>
