@@ -1,0 +1,58 @@
+.teams-section {
+    @extend %container;
+    @extend %section;
+    background-color:$primary-gray-bcg;
+}
+
+.teams-container {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.teams-section__title {
+    margin-bottom: 50px;
+    color:$primary-black-color;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.teams-section__list {
+    @extend %list;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teams-section__item {
+    width: 270px;
+    height: 428px;
+    background-color: $primary-white-color;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+   
+      &:not(:last-child) {
+    margin-right: 30px}
+
+}
+
+.teams-section__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    color:$primary-black-color;
+    text-align: center;
+}
+
+.teams-section__job {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $primary-text-color;
+    text-align: center;
+}
+

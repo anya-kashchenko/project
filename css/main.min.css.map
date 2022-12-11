@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.min.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/components/_work-section.scss","../sass/components/_buttons-section.scss","../sass/utils/_variables.scss"],"names":[],"mappings":"AAAA,KACI,WCDJ,kBACA,MCDsB,KDEtB,aACA,kBACA,mBACA,iBACA,kBACA,iBACA,oBAEA,gBACA,mBAEA,sBACA,aACA,eACA,uBACA,gBAEA,wBACA,iBACA,eACA,gBACA,gBACA,YACA,kBACA,eACA,qBACA,sKACA,8JACE,8BACE,iBC5BgB,QD6BhB,0BAKA,4BACJ,iBCnCoB,QDoCpB,MCvCsB,KDwCtB,qBACA,8FACA","file":"main.min.css"}
