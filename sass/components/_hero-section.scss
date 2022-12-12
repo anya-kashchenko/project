@@ -5,20 +5,12 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0;
-}
-
-
-.container-main {
-
-    margin-left: auto;
-    margin-right: auto;
 
 }
 
 .hero-section {
     border: 5px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+  
 }
 
 .hero-section__title {
@@ -27,12 +19,14 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    margin-top: 0;
+    margin-top: 200px;
     margin-bottom: 30px;
     width: 696px;
     height: 120px;
     text-align: center;
     color:$primary-white-color;
+
+  
 
 
 }
@@ -64,4 +58,16 @@
 .buttons-section__button--primary {
     background-color:$primary-blue-color;
     color:$primary-white-color;
+}
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    outline: 1px solid #2196F3;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/111.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

@@ -1,12 +1,11 @@
 .skills-section {
-    padding-top: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
+
+@extend %container;
+padding-top: 94px;
 }
 
 .skills-container {
-    @extend %container;
-    @extend %section;
+  padding: 0px;
 }
 
 .skills-section__list {
@@ -16,12 +15,14 @@
     color:$primary-black-color;
     width: 270px;
     @extend %list;
+    padding: 0px;
 }
 
-.skills-section__item:not(:last-child) {
+.skills-section__item{
+    &:not(:last-child) {
     margin-right: 30px;
 }
-
+}
 .skills-section__icon {
     height: 120px;
     width: 270px;

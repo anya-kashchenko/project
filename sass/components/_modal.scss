@@ -47,10 +47,7 @@
     margin-bottom: 12px;
 }
 
-.footer-form__label {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .form-input {
     background:$primary-white-color;
@@ -85,7 +82,7 @@
     font-size: 12px;
     line-height: 14px;
     color:$primary-text-color;
-    width: 448px;
+    width: 420px;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -112,8 +109,8 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .checkbox-input:checked+.checkbox__icon {
@@ -141,8 +138,8 @@
     font-size: 14px;
     line-height: 24px;
     color:$primary-text-color;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     text-align: center;
 }
 
